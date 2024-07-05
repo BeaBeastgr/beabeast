@@ -1,8 +1,10 @@
 import React from 'react';
 import './header.css';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 
 const Header = () => {
+  const location = useLocation();
+
   return (
     <div className='toHeader'>
         <div className='tomesa'>
@@ -10,9 +12,11 @@ const Header = () => {
             <Link to='/' className='tolinkmaga'><p>BeaBeast.gr</p></Link>
           </div>
 
-          <div className='todeksia'>
-            <Link to='/startnow' className='startbutton'>Ξεκίνα σήμερα!</Link>
-          </div>
+          {location.pathname !== '/StartNow' && (
+            <div className='todeksia'>
+              <Link to='/startnow' className='startbutton'>Ξεκίνα σήμερα!</Link>
+            </div>
+          )}
         </div>
     </div>
   );

@@ -56,6 +56,11 @@
     margin-bottom: -20px;
 }
 
+#epilegmeno {
+    font-weight: 600;
+    color: rgb(255, 123, 0);
+}
+
 /* Κανόνες CSS για tablet */
 @media (min-width: 601px) and (max-width: 768px) {
  
