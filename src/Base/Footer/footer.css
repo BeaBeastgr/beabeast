@@ -8,7 +8,7 @@
     border-radius: 40px 40px 0 0;
     width: 90%;
     margin-left: 5%;
-    background-color: white;
+    background-color: #333;
     border: 3px solid rgb(142, 189, 193);
     text-align: center;
     border-top: 3px solid  black;
@@ -34,7 +34,7 @@
     box-sizing: border-box; 
     font-size: 17px;
     font-weight: 550;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 .koytaki:hover {
@@ -43,7 +43,7 @@
 
 .tolink {
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 .tolink:hover {

@@ -1,5 +1,7 @@
 .toeksw {
     z-index: 5;
+    background-color: #333;
+    height: 100vh;
 }
 
 .startNow {
@@ -7,6 +9,7 @@
     margin-left: 15%;
     width: 70%;
     margin-top: -20%;
+    color: white;
     z-index: 500;
 }
 
@@ -18,7 +21,7 @@
 }
 
 .noymero {
-    border: 3px solid black;
+    border: 3px solid rgb(255, 255, 255);
     padding: 0px 8px;
     font-size: 20px;
     font-weight: 600;
@@ -28,15 +31,15 @@
 .tohrstostart {
     flex: 1;
     border: none;
-    border-top: 3px solid #000; 
+    border-top: 3px solid #ffffff; 
     margin: 0 10px; 
     margin-top: 37px;
 }
 
 #prasino {
-    border: 3px solid rgb(0, 0, 0);
+    border: 3px solid rgb(255, 255, 255);
     background-color: greenyellow;
-    color: rgb(56, 112, 0);
+    color: rgb(0, 0, 0);
 }
 
 #prasinostohr {
@@ -50,8 +53,9 @@
 }
 
 .apanthsh {
-    border: 3px solid black;
+    border: 3px solid rgb(255, 255, 255);
     margin-bottom: 30px;
+    color: white;
     padding: 0px 20px;
     border-radius: 10px;
     font-size: 18px;

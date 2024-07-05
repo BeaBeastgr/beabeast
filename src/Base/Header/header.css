@@ -4,7 +4,8 @@
         align-items: center; 
         padding: 0px 20px;
         height: auto;  
-        border-bottom: 3px solid black;
+        background-color: #333;
+        border-bottom: 3px solid rgb(255, 255, 255);
         z-index: 999;
     }
 
@@ -31,7 +32,7 @@
         margin-top: 20px;
         text-decoration: none;
         cursor: pointer;
-        color: rgb(0, 0, 0);
+        color: white;
     }
 
     .toaristera p:hover {
@@ -42,7 +43,7 @@
         margin-right: 0px;
         font-family: 'Impact', Charcoal, sans-serif;
         font-size: 23px;
-        border: 3px solid black;
+        border: 3px solid rgb(255, 255, 255);
         padding: 3px 20px;
         text-decoration: none;
         color: rgb(255, 123, 0);

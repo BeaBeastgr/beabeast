@@ -26,9 +26,9 @@ const Exercises = () => {
   }, [navigate]);
 
   return (
-    <div className='exercises'>
-      <div>
-        <div class="meseo">
+    <div >
+      <div className="exercises">
+        <div className="meseo">
           <br/>
           <main>
             <div className="muscle-groups">
