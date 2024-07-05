@@ -1,0 +1,55 @@
+    .toHeader {
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+        padding: 0px 20px;
+        height: auto;  
+        border-bottom: 3px solid black;
+        z-index: 999;
+    }
+
+    .tomesa {
+        margin-top: 0px;
+        display: flex;
+        justify-content: space-between; 
+        align-items: center; 
+        width: 100%;
+    }
+
+    .toaristera,
+    .todeksia {
+        flex-shrink: 0; 
+        margin-top: -10px;
+        margin-bottom: -10px;
+        text-align: right;
+        display: flex;
+    }
+
+    .toaristera p {
+        font-family: fantasy;
+        font-size: 25px;
+        margin-top: 20px;
+        text-decoration: none;
+        cursor: pointer;
+        color: rgb(255, 123, 0);
+    }
+
+    .toaristera p:hover {
+        text-decoration: underline;
+    }
+
+    .startbutton {
+        margin-right: 0px;
+        font-family: 'Impact', Charcoal, sans-serif;
+        font-size: 23px;
+        border: 3px solid black;
+        padding: 3px 20px;
+        text-decoration: none;
+        color: rgb(255, 123, 0);
+        border-radius: 10px;
+    }
+
+    .startbutton:hover {
+        border: 3px solid rgb(142, 189, 193);
+    }
+

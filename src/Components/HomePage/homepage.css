@@ -1,0 +1,300 @@
+
+.topanwhome {
+    display: flex;
+    margin-top: -38%;
+}
+
+.toparistera {
+    text-align: center;
+    justify-content: center;
+    margin-top: 50px;
+    color: white;
+    margin-left: 0%;
+    font-family: 'Impact', Charcoal, sans-serif;
+    font-size: 2.5em; /* Αυξάνει το μέγεθος των γραμμάτων */
+    font-weight: bold;
+    letter-spacing: 0.05em; 
+    padding: 0 100px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+}
+
+.topdeksia {
+    width: 50%;
+    text-align: center;
+    margin-right: 5%;
+}
+
+.profilImg {
+    width: 100%;
+    border: 5px solid rgb(142, 189, 193);
+    border-top: none;
+    border-left: none;
+    border-bottom: 5px solid rgb(255, 123, 0);
+    border-radius: 0 0 20px 20px;
+}
+
+.tobutt {
+    font-family: monospace;
+    font-size: 0.8em;
+    border-radius: 10px;
+    padding: 7px 20px;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+    background-color: rgb(255, 123, 0);
+    border: 3px solid rgb(255, 123, 0);
+    border-right: 3px solid rgb(142, 189, 193);
+    border-bottom: 3px solid rgb(142, 189, 193);
+}
+
+.tobutt:hover {
+    border: 3px solid black;
+    border-right: 3px solid rgb(142, 189, 193);
+    border-bottom: 3px solid rgb(142, 189, 193);
+}
+
+.aytometoexer {
+    display: flex;
+    margin-top: 70px;
+    border: 3px solid black;
+    border-radius: 20px;
+    height: auto;
+    width: 90%;
+    box-shadow: rgb(255, 123, 0, 0.25) 0px 54px 55px, rgb(255, 123, 0, 0.25) 0px -12px 30px, rgb(255, 123, 0, 0.25) 0px 4px 6px, rgb(255, 123, 0, 0.25) 0px 12px 13px, rgb(255, 123, 0, 0.25) 0px -3px 5px;
+    margin-left: 5%;
+    align-items: center;
+}
+
+.baraki {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.tohr {
+    flex: 1;
+    border: none;
+    border-top: 2px solid #000; 
+    margin: 0 10px; 
+  }
+
+.tobaraki {
+   width: 6%;
+   animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+.exersIMg {
+    margin-top: 20px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.toaristeraexe {
+    width: 40%;
+}
+
+.todeksiaexer {
+    width: 80%;
+    padding: 20px;
+    margin-right: 50px;
+    font-size: 25px;
+    font-weight: 550;
+    text-align: center;
+}
+
+.toexersButton {
+    text-decoration: none;
+    padding: 10px 30px;
+    font-size: 22px;
+    color: black;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 3px solid rgb(142, 189, 193);
+}
+
+.toexersButton:hover {
+    border: 3px solid rgb(255, 123, 0);
+}
+
+.divEbook {
+    text-align: center;
+    margin-top: -10%;
+}
+
+.toEbook {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.25) 0px -12px 30px, rgba(0, 0, 0, 0.25) 0px 4px 6px, rgba(0, 0, 0, 0.25) 0px 12px 13px, rgba(0, 0, 0, 0.25) 0px -3px 5px;
+    width: 13%;
+    margin-top: -20%;
+    animation: float 3s ease-in-out infinite;
+}
+
+
+.toybiblioy {
+    background-color: #e38c3b;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+.tosvg {
+    margin-bottom: -10px;
+}
+
+.katwapotoebook {
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+    margin-top: 70px;
+    font-size: 30px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    font-weight: 550;
+}
+
+.tokatwsvg {
+    margin-top: 0px;
+    z-index: 5;
+}
+
+.toebookbutton {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 23px;
+    font-weight: 550;
+    margin-top: 50px;
+    font-family: sans-serif;
+    cursor: pointer;
+    background-color: #e38c3b;
+    border: 3px solid black;
+    border-top: 3px solid rgb(142, 189, 193);
+    border-left: 3px solid rgb(142, 189, 193);
+    color: white;
+}
+
+.toebookbutton:hover {
+    border: 3px solid rgb(142, 189, 193);
+}
+
+#kinitamono {
+    display: none;
+}
+
+/* Κανόνες CSS για tablet */
+@media (min-width: 601px) and (max-width: 768px) {
+ 
+}
+
+/* Κανόνες CSS για κινητά */
+@media (max-width: 600px) {
+    .topanwhome {
+        display: block;
+        margin-top: -40%;
+    }
+
+    .topdeksia {
+        width: 100%;
+        text-align: center;
+        margin-right: 5%;
+        margin-top: 10%;
+    }
+    
+    .profilImg {
+        width: 60%;
+        background-color:  #e38c3b;
+        border-radius: 20px 0 0 0;
+    }
+
+    .toparistera {
+        margin-top: 0px;
+        color: black;
+        font-family: sans-serif;
+        font-size: 2em;
+        padding: 0 60px;
+        text-shadow: 2px 2px 4px rgb(255, 255, 255);
+    }
+
+    .tobutt {
+        padding: 8px 30px;
+        text-shadow: 2px 2px 4px rgb(0, 0, 0);
+    }
+
+    .tobaraki {
+        width: 15%;
+        animation: float 3s ease-in-out infinite;
+     }
+
+     #kinitamono {
+        display: flex;
+    }
+
+    .aytometoexer {
+        display: block;
+        margin-top: 70px;
+        border: 2px solid black;
+        border-radius: 20px;
+        height: auto;
+        width: 90%;
+        box-shadow: rgb(255, 123, 0, 0.25) 0px 54px 55px, rgb(255, 123, 0, 0.25) 0px -12px 30px, rgb(255, 123, 0, 0.25) 0px 4px 6px, rgb(255, 123, 0, 0.25) 0px 12px 13px, rgb(255, 123, 0, 0.25) 0px -3px 5px;
+        margin-left: 5%;
+        align-items: center;
+    }
+
+        
+    .toaristeraexe {
+      text-align: center;
+      justify-content: center;
+      border-bottom: 3px solid #e38c3b;
+      width: 100%;
+    }
+
+    
+    .todeksiaexer {
+        width: 80%;
+        margin-left: 10%;
+        padding: 0px;
+        margin-bottom: 40px;
+        margin-right: 0px;
+        font-size: 25px;
+        font-weight: 550;
+        text-align: center;
+    }
+
+    
+.divEbook {
+    text-align: center;
+    margin-top: -10%;
+}
+
+.tosvg {
+    margin-top: 70px;
+    margin-bottom: -10px;
+}
+
+.toEbook {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.25) 0px -12px 30px, rgba(0, 0, 0, 0.25) 0px 4px 6px, rgba(0, 0, 0, 0.25) 0px 12px 13px, rgba(0, 0, 0, 0.25) 0px -3px 5px;
+    width: 35%;
+    margin-top: -20%;
+    animation: float 3s ease-in-out infinite;
+}
+
+
+}
