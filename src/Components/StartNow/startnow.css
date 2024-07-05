@@ -34,17 +34,19 @@
 }
 
 #prasino {
-    border: 3px solid rgb(102, 235, 6);
+    border: 3px solid rgb(0, 0, 0);
+    background-color: greenyellow;
     color: rgb(56, 112, 0);
 }
 
 #prasinostohr {
-    border-top: 3px solid rgb(102, 235, 6);
+    border-top: 3px solid greenyellow;
 }
 
 .ervthsh {
     text-align: center;
     font-size: 25px;
+    font-weight: 600;
 }
 
 .apanthsh {
@@ -62,6 +64,30 @@
     border: 3px solid rgb(255, 123, 0);
 }
 
+/* Κανόνες CSS για tablet */
+@media (min-width: 601px) and (max-width: 768px) {
+ 
+}
+
+/* Κανόνες CSS για κινητά */
+@media (max-width: 600px) {
+
+  .startNow {
+    position: relative;
+    margin-left: 5%;
+    width: 90%;
+    margin-top: -20%;
+    z-index: 500;
+}
+
+.progress {
+    display: flex;
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+}
+
+}
 /* 
           .path-0{
             animation:pathAnim-0 20s;

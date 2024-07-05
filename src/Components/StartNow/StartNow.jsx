@@ -25,7 +25,7 @@ const StartNow = () => {
 
             <br/><br/>
 
-            <Link to='/ebook'>
+            <Link to='/ebook' className='tolink'>
               <div className='apanthsh' id='apant1'>
                   <p>Ξεκινάω από το 0!</p>
               </div>
