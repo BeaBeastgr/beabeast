@@ -8,7 +8,7 @@ const Ebook = () => {
         <div className='toebookmesa'>
           <div className='kentro'>
             <p>Συμπληρώστε την παρακάτω φόρμα για να λάβετε εντελώς δωρεάν το Ebook. Εάν ξεκινάτε από το 0 το ebook αυτό είναι ακριβώς αυτό που αναζητάτε για να μπορέσετε να κάνετε τα αρχικά σας βήματα.</p>
-            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScc9ixVlR7VVquBQF3xz7tqANRa9UseRxA9YWXsIjrDlVGmUQ/viewform?embedded=true" width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0">Φόρτωση…</iframe>
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScc9ixVlR7VVquBQF3xz7tqANRa9UseRxA9YWXsIjrDlVGmUQ/viewform?embedded=true" width="100%" height="900" frameborder="0" marginheight="0" marginwidth="0">Φόρτωση…</iframe>
           </div>
         </div>
     </div>
