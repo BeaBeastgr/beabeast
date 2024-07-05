@@ -229,10 +229,10 @@
 
     .toparistera {
         margin-top: 0px;
-        color: black;
+        color: white;
         font-size: 2em;
         padding: 0 60px;
-        text-shadow: 2px 2px 4px rgb(255, 255, 255);
+        text-shadow: 2px 2px 4px rgb(0, 0, 0);
     }
 
     .tobutt {

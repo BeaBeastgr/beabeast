@@ -1,6 +1,8 @@
 .Ebook {
     background-color: #333;
     margin-bottom: -10%;
+    color: white;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
 }
 
 .kentro {
