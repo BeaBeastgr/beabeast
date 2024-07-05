@@ -1,10 +1,8 @@
-.toebookmesa {
+
+.kentro {
     margin-top: -40%;
     width: 80%;
     margin-left: 10%;
-}
-
-.kentro {
     font-size: 25px;
     font-weight: 550;
     text-align: center;
@@ -18,13 +16,8 @@
 
 /* Κανόνες CSS για κινητά */
 @media (max-width: 600px) {
-    .toebookmesa {
-        margin-top: -40%;
-        width: 90%;
-        margin-left: 5%;
-    }
-
     .kentro {
-        width: 100%;
+        width: 95%;
+        margin-left: 2.5%;
     }
 }
