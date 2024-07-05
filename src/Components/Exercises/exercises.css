@@ -1,10 +1,9 @@
 .toekswexer{
   background-color: #333;
-  height: 100vh;
+  height: 105vh;
 }
 
 .meseo {
-
   margin-top: 0%;
     width: 100%;
   }
@@ -12,6 +11,7 @@
   .kentromesamaga {
     text-align: center;
     font-size: 25px;
+    
     color: white;
   }
 

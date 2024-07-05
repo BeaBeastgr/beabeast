@@ -202,6 +202,7 @@ const Exercises = () => {
                   style={{ fill: "none", stroke: "#ffffff", strokeWidth: "1px" }}
                 />
               </svg>
+              
             </div>
           </main>
         </div>
