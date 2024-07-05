@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/beabeast/static/css/main.740879f0.css",
+    "main.js": "/beabeast/static/js/main.43d5740b.js",
+    "static/media/profil.png": "/beabeast/static/media/profil.8ab94012079e4c597372.png",
+    "static/media/book.png": "/beabeast/static/media/book.48583a3b0b13399b74a7.png",
+    "static/media/exers.png": "/beabeast/static/media/exers.ba973ca7a31f3e448ed2.png",
+    "static/media/house.png": "/beabeast/static/media/house.218fbaccbced26ae1099.png",
+    "static/media/training.png": "/beabeast/static/media/training.7a436ffac7a6b64da5bf.png",
+    "static/media/dumbbell.png": "/beabeast/static/media/dumbbell.3d35db2856d61cc63289.png",
+    "static/media/barakikardia.png": "/beabeast/static/media/barakikardia.6cf9472aa18230b30e5b.png",
+    "static/media/ebook.png": "/beabeast/static/media/ebook.d73aff974eac26b4153a.png",
+    "static/media/play-button.png": "/beabeast/static/media/play-button.00f36ef17e5a24c37d3c.png",
+    "index.html": "/beabeast/index.html",
+    "main.740879f0.css.map": "/beabeast/static/css/main.740879f0.css.map",
+    "main.43d5740b.js.map": "/beabeast/static/js/main.43d5740b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.740879f0.css",
+    "static/js/main.43d5740b.js"
+  ]
+}
