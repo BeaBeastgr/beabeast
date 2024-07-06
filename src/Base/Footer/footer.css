@@ -9,9 +9,9 @@
     width: 90%;
     margin-left: 5%;
     background-color: #333;
-    border: 3px solid rgb(142, 189, 193);
+    border: 3px solid rgb(255, 123, 0);
     text-align: center;
-    border-top: 3px solid  black;
+    border-top: 3px solid  rgb(255, 255, 255);
     padding: 0px;
     text-decoration: none;
     z-index: 999;
@@ -81,7 +81,7 @@
         background-color: #333;
         border: 3px solid rgb(142, 189, 193);
         text-align: center;
-        border-top: 3px solid black;
+        border-top: 3px solid rgb(255, 255, 255);
         padding: 0px;
         border-left: none;
         border-right: none;

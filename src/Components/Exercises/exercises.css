@@ -43,12 +43,14 @@
     opacity: 10;
     fill: rgb(170, 170, 170) !important;
     transition: opacity .25s ease-in-out;
+    stroke: rgb(214, 214, 214); 
+    stroke-width: 1px;
   }
   
   .muscle-groups svg g g[id]:hover path {
     cursor: pointer;
     opacity: .5;
-    fill: rgb(255, 106, 0) !important;
+    fill: rgb(231, 139, 0) !important;
   }
   
   .muscle-groups .muscles-helper {
