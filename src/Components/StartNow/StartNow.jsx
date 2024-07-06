@@ -1,8 +1,18 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './startnow.css';
 import { Link } from 'react-router-dom';
 
 const StartNow = () => {
+  const [isAnswered, setIsAnswered] = useState(false);
+  const [hrId, setHrId] = useState('');
+  const [noymeroId, setnoymeroId] = useState('');
+
+  const handleAnswerClick = () => {
+    setIsAnswered(true);
+    setHrId('ginegreen');
+    setnoymeroId('twra');
+  };
+
   return (
     <div className='toeksw'>
       <div className='tosvgstart'>
@@ -12,34 +22,44 @@ const StartNow = () => {
         <path d="M 0,600 L 0,412 C 121.33333333333331,385.6 242.66666666666663,359.2 409,357 C 575.3333333333334,354.8 786.6666666666667,376.8 966,390 C 1145.3333333333333,403.2 1292.6666666666665,407.6 1440,412 L 1440,600 L 0,600 Z" stroke="none" stroke-width="0" fill="#00d084" fill-opacity="1" class="transition-all duration-300 ease-in-out delay-150 path-2" transform="rotate(-180 720 300)"></path></svg>
       </div>
       <div className='startNow'>
-          <div className='progress'>
-            <p className='noymero' id='prasino'>1</p>
-            <hr className='tohrstostart' id='prasinostohr'/>
-            <hr className='tohrstostart'/>
-            <p className='noymero'>2</p> 
-          </div>
+        <div className='progress'>
+          <p className='noymero' id='prasino'>1</p>
+          <hr className='tohrstostart' id='prasinostohr'/>
+          <hr className='tohrstostart' id={hrId} />
+          <p className='noymero' id={noymeroId} >2</p> 
+        </div>
 
-          <div className='erwthshs'>
-            <div className='ervthsh'>
+        <div className='erwthshs'>
+          {!isAnswered && (
+            <div className='eksafanisi'>
+              <div className='ervthsh'>
                 <p>Ποια είναι η φυσική σου κατάσταση αυτήν την στιγμή;</p>
-            </div>
-
-            <br/><br/>
-
-            <Link to='/ebook' className='tolink'>
-              <div className='apanthsh' id='apant1'>
-                  <p>Ξεκινάω από το 0!</p>
               </div>
-            </Link>
 
-            <div className='apanthsh' id='apant2'>
+              <br/><br/>
+
+              <Link to='/ebook' className='tolink'>
+                <div className='apanthsh' id='apant1'>
+                  <p>Ξεκινάω από το 0!</p>
+                </div>
+              </Link>
+
+              <div className='apanthsh' id='apant2' onClick={handleAnswerClick}>
                 <p>Έχω ξανακάνει γυμναστική, είμαι σε ένα σχετικά καλό επίπεδο και θέλω να βελτιωθώ παραπάνω!</p>
+              </div>
             </div>
-          </div>
-          
+          )}
+          {isAnswered && (
+            <div className='kentroedw'>
+              <div className='ervthsh2'>
+                <p>Παρακαλω συμπληρωστε την παρακατω φορμα:</p>
+              </div>
+              <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScVC46DraR0Z3HCtjmDSzoCvQyrM8OEZMiQ9pQYVy223bPmHQ/viewform?embedded=true" width="100%" height="3961" frameborder="0" marginheight="0" marginwidth="0">Φόρτωση…</iframe>
+              <br/><br/><br/><br/><br/>
+            </div>
+          )}
+        </div>
       </div>
-
-      
     </div>
   );
 };

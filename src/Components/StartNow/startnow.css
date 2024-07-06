@@ -1,7 +1,7 @@
 .toeksw {
     z-index: 5;
     background-color: #333;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .startNow {
@@ -31,9 +31,9 @@
 .tohrstostart {
     flex: 1;
     border: none;
-    border-top: 3px solid #ffffff; 
+    border-top: 6px solid #ffffff; 
     margin: 0 10px; 
-    margin-top: 37px;
+    margin-top: 32px;
 }
 
 #prasino {
@@ -63,10 +63,42 @@
   }
 }
 
+#ginegreen {
+  margin-top: 32px;
+  border-top: 3px solid transparent;
+  background: linear-gradient(to right, greenyellow 50%, transparent 50%);
+  background-size: 200% 100%;
+  background-position: 100% 0;
+  animation: animateBorder 2s forwards;
+  height: 3px; 
+  width: 100%; 
+  overflow: hidden; 
+}
+
+@keyframes animateBorder {
+  0% {
+      background-position: 100% 0;
+  }
+  100% {
+      background-position: 0 0;
+  }
+}
+
+#twra {
+  background-color: greenyellow;
+  color: black;
+}
+
 .ervthsh {
     text-align: center;
     font-size: 25px;
     font-weight: 600;
+}
+
+.ervthsh2 {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 600;
 }
 
 .apanthsh {
@@ -83,6 +115,10 @@
 
 .apanthsh:hover {
     border: 3px solid rgb(255, 123, 0);
+}
+
+.kentroedw {
+  text-align: center;
 }
 
 /* Κανόνες CSS για tablet */
