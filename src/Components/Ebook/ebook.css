@@ -6,13 +6,33 @@
 }
 
 .kentro {
+    background-color: #333;
     margin-top: -40%;
     width: 80%;
+    min-height: 90vh;
     margin-left: 10%;
     font-size: 25px;
     font-weight: 550;
     text-align: center;
     margin-bottom: 10%;
+}
+
+.emfformasbutt {
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 18px;
+    background-color: transparent;
+    border: 3px solid white;
+    color: white;
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;
+    font-weight: 600;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.emfformasbutt:hover {
+    border: 3px solid black;
 }
 
 /* Κανόνες CSS για tablet */
