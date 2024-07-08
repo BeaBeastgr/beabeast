@@ -16,7 +16,8 @@ import Glutes from '../../Assets/Images/Glutes.png';
 import Hamstrings from '../../Assets/Images/Hamstrings.png';
 import Calves from '../../Assets/Images/Calves.png';
 import Forearms from '../../Assets/Images/forearm.png';
-// import from '../../Assets/Images/';
+import abs1 from '../../Assets/ImageAskhsewn/abs1.png';
+import arrow from '../../Assets/Images/downarrow.png';
 
 const muscleImages = {
   Triceps: Triceps,
@@ -60,6 +61,25 @@ const Exercise = () => {
             <p>Image not found</p>
           )}
             <span>{muscle}</span>
+      </div>
+      <br/><br/>
+      <div className='haskhshsmesa'>
+        <div className='askhsh'>
+            <img src={abs1} alt='' className='askhsheimage'/>
+            <span>Onoma askhshs</span>
+            <img src={arrow} alt='' className='arrow' />
+        </div>
+        <div className='toapokatw'>
+          <br/>
+          <div className='kentrohEikona'>
+            <img src={abs1} alt='' className='eikonaaskMegalh' />
+          </div>
+          <span>Epeksigisi:</span><br/><br/>
+          <span>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro eos dolore ipsa unde ullam reiciendis similique corrupti repellat? Perspiciatis necessitatibus adipisci sunt amet, labore vero sapiente delectus. Facilis, optio velit!
+          </span>
+          <br/><br/>
+        </div>
       </div>
     </div>
   );

@@ -1,10 +1,10 @@
-.toekswexer{
-  background-color: #333;
-  height: 105vh;
-}
+  .toekswexer{
+    background-color: #333;
+    height: 105vh;
+  }
 
-.meseo {
-  margin-top: 0%;
+  .meseo {
+    margin-top: 0%;
     width: 100%;
   }
 
@@ -31,7 +31,6 @@
     text-transform: uppercase;
   }
   
-  
   .muscle-groups svg {
     right: 0rem;
     bottom: 3rem;
@@ -55,7 +54,6 @@
   
   .muscle-groups .muscles-helper {
     display: none;
-    
   }
   
   .muscle-groups label[for="obliques"]:hover ~ svg #Obliques path,
@@ -89,3 +87,15 @@
     opacity: .75;
   }
   
+  /* Κανόνες CSS για tablet */
+  @media (min-width: 601px) and (max-width: 768px) {
+  
+  }
+
+  /* Κανόνες CSS για κινητά */
+  @media (max-width: 600px) {
+    .kentromesamaga {
+      width: 90%;
+      margin-left: 5%;
+    }
+  }

@@ -23,6 +23,65 @@
     height: 2%;
 }
 
+.haskhshsmesa {
+    margin-left:25%;
+    width: 50%;
+}
+
+.askhsheimage {
+    width: 15%;
+    height: 50px;
+}
+
+.askhsh {
+    cursor: pointer;
+    display: flex;
+    border: 2px solid white;
+    border-radius: 20px;
+    box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+    padding: 10px 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.askhsh:hover {
+    box-shadow: rgba(255, 255, 255, 0.5) 0px 5px 15px;
+}
+
+.askhsh span {
+    margin-left: 10px;
+    font-size: 18px;
+    margin-top: -4px;
+    font-weight: 550;
+}
+
+.arrow {
+    width: 5%;
+    height: auto;
+    margin-left: auto; 
+}
+
+.toapokatw {
+    border: 2px solid white;
+    border-top: none;
+    border-radius: 0 0 20px 20px;
+    padding: 10px 20px;
+    margin-top: -20px;
+}
+
+.toapokatw span {
+    font-size: 18px;
+    font-weight: 550;
+}
+
+.kentrohEikona {
+    text-align: center;
+}
+
+.eikonaaskMegalh {
+    width: 40%;
+}
+
 /* Κανόνες CSS για tablet */
 @media (min-width: 601px) and (max-width: 768px) {
  
@@ -41,4 +100,23 @@
         margin-left: 15px;
         margin-top: 2px;
     }
+
+    .haskhshsmesa {
+        margin-left: 5%;
+        width: 90%;
+    }
+
+    .eikonaaskMegalh {
+        width: 65%;
+    }
+
+    .arrow {
+        width: 8%;
+    }
+
+    .askhsheimage {
+        width: 20%;
+        height: 50px;
+    }
+    
 }
