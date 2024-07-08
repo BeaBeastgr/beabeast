@@ -1,0 +1,44 @@
+.Ebook {
+    background-color: #333;
+    min-height: 100vh;
+}
+
+.tonamekaitoimg {
+    display: flex;
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+    justify-content: center;
+}
+
+.tonamekaitoimg span{
+    margin-left: 15px;
+    margin-top: 0px;
+}
+
+.tomuscleImg {
+    border: 2px solid white;
+    border-radius: 100%;
+    width: 2%;
+    height: 2%;
+}
+
+/* Κανόνες CSS για tablet */
+@media (min-width: 601px) and (max-width: 768px) {
+ 
+}
+
+/* Κανόνες CSS για κινητά */
+@media (max-width: 600px) {
+    .tomuscleImg {
+        border: 2px solid white;
+        border-radius: 100%;
+        width: 7%;
+        height: 7%;
+    }
+
+    .tonamekaitoimg span{
+        margin-left: 15px;
+        margin-top: 2px;
+    }
+}
