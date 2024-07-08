@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/beabeast/static/css/main.e5b4b327.css",
-    "main.js": "/beabeast/static/js/main.13b48800.js",
+    "main.css": "/beabeast/static/css/main.05e4c1c1.css",
+    "main.js": "/beabeast/static/js/main.40bd88ec.js",
     "static/media/profil.png": "/beabeast/static/media/profil.8ab94012079e4c597372.png",
     "static/media/book.png": "/beabeast/static/media/book.48583a3b0b13399b74a7.png",
+    "static/media/abs1.png": "/beabeast/static/media/abs1.8023645c82ffaebf2a5f.png",
     "static/media/exers.png": "/beabeast/static/media/exers.ba973ca7a31f3e448ed2.png",
     "static/media/trapezius.png": "/beabeast/static/media/trapezius.fb1698e97b7d952e12d5.png",
     "static/media/oblique.png": "/beabeast/static/media/oblique.bd7335db266c0681c67f.png",
@@ -17,6 +18,7 @@
     "static/media/forearm.png": "/beabeast/static/media/forearm.8695797bb91383335f38.png",
     "static/media/Hamstrings.png": "/beabeast/static/media/Hamstrings.c2c6cce3700f9c12411a.png",
     "static/media/triceps.png": "/beabeast/static/media/triceps.2650c9f7c764c4350331.png",
+    "static/media/downarrow.png": "/beabeast/static/media/downarrow.0cf40aa28e7cd37418ec.png",
     "static/media/pectorals.png": "/beabeast/static/media/pectorals.7651ea66b346e22820e9.png",
     "static/media/training.png": "/beabeast/static/media/training.7a436ffac7a6b64da5bf.png",
     "static/media/dumbbell.png": "/beabeast/static/media/dumbbell.3d35db2856d61cc63289.png",
@@ -26,11 +28,11 @@
     "static/media/ebook.png": "/beabeast/static/media/ebook.d73aff974eac26b4153a.png",
     "static/media/play-button.png": "/beabeast/static/media/play-button.00f36ef17e5a24c37d3c.png",
     "index.html": "/beabeast/index.html",
-    "main.e5b4b327.css.map": "/beabeast/static/css/main.e5b4b327.css.map",
-    "main.13b48800.js.map": "/beabeast/static/js/main.13b48800.js.map"
+    "main.05e4c1c1.css.map": "/beabeast/static/css/main.05e4c1c1.css.map",
+    "main.40bd88ec.js.map": "/beabeast/static/js/main.40bd88ec.js.map"
   },
   "entrypoints": [
-    "static/css/main.e5b4b327.css",
-    "static/js/main.13b48800.js"
+    "static/css/main.05e4c1c1.css",
+    "static/js/main.40bd88ec.js"
   ]
 }
