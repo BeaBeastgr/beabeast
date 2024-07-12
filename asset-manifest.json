@@ -1,11 +1,28 @@
 {
   "files": {
-    "main.css": "/beabeast/static/css/main.05e4c1c1.css",
-    "main.js": "/beabeast/static/js/main.40bd88ec.js",
+    "main.css": "/beabeast/static/css/main.fff7559d.css",
+    "main.js": "/beabeast/static/js/main.c60b6aa9.js",
     "static/media/profil.png": "/beabeast/static/media/profil.8ab94012079e4c597372.png",
     "static/media/book.png": "/beabeast/static/media/book.48583a3b0b13399b74a7.png",
-    "static/media/abs1.png": "/beabeast/static/media/abs1.8023645c82ffaebf2a5f.png",
+    "static/media/trik3.png": "/beabeast/static/media/trik3.f5bd0d370aec58c4edad.png",
+    "static/media/xeria2.png": "/beabeast/static/media/xeria2.b8dac28c9c8575b26d99.png",
+    "static/media/xeria3.png": "/beabeast/static/media/xeria3.d5c1e08575c176e3cdc2.png",
+    "static/media/trik2.png": "/beabeast/static/media/trik2.eee18b77ab09b6a8ee57.png",
+    "static/media/om1.png": "/beabeast/static/media/om1.1a1c2e476efdba324d92.png",
+    "static/media/stith3.png": "/beabeast/static/media/stith3.326db3d23df6af711386.png",
+    "static/media/xeria1.png": "/beabeast/static/media/xeria1.f8072ade27e4bcb4892b.png",
+    "static/media/tetr3.png": "/beabeast/static/media/tetr3.41c55e4ad3a20f0c713d.png",
+    "static/media/tetr2.png": "/beabeast/static/media/tetr2.8a1c21422371faf3b288.png",
+    "static/media/trik1.png": "/beabeast/static/media/trik1.91f3e3b4c0cef3beffe1.png",
     "static/media/exers.png": "/beabeast/static/media/exers.ba973ca7a31f3e448ed2.png",
+    "static/media/stith2.png": "/beabeast/static/media/stith2.7293772b58abdb0b7b54.png",
+    "static/media/om3.png": "/beabeast/static/media/om3.39bb0caf654f70e0beaa.png",
+    "static/media/tetr1.png": "/beabeast/static/media/tetr1.c0871c070c15c71f68ae.png",
+    "static/media/abs1.png": "/beabeast/static/media/abs1.1a5c48594ed6dea224f9.png",
+    "static/media/om2.png": "/beabeast/static/media/om2.340d40f0637be6992e3d.png",
+    "static/media/stith1.png": "/beabeast/static/media/stith1.935254403d49511f8397.png",
+    "static/media/abs3.png": "/beabeast/static/media/abs3.222a0528bbff0fe5bfa6.png",
+    "static/media/abs2.png": "/beabeast/static/media/abs2.3c6940ac8ca88279cf3a.png",
     "static/media/trapezius.png": "/beabeast/static/media/trapezius.fb1698e97b7d952e12d5.png",
     "static/media/oblique.png": "/beabeast/static/media/oblique.bd7335db266c0681c67f.png",
     "static/media/lats.png": "/beabeast/static/media/lats.5c340c76fd06d3332203.png",
@@ -28,11 +45,11 @@
     "static/media/ebook.png": "/beabeast/static/media/ebook.d73aff974eac26b4153a.png",
     "static/media/play-button.png": "/beabeast/static/media/play-button.00f36ef17e5a24c37d3c.png",
     "index.html": "/beabeast/index.html",
-    "main.05e4c1c1.css.map": "/beabeast/static/css/main.05e4c1c1.css.map",
-    "main.40bd88ec.js.map": "/beabeast/static/js/main.40bd88ec.js.map"
+    "main.fff7559d.css.map": "/beabeast/static/css/main.fff7559d.css.map",
+    "main.c60b6aa9.js.map": "/beabeast/static/js/main.c60b6aa9.js.map"
   },
   "entrypoints": [
-    "static/css/main.05e4c1c1.css",
-    "static/js/main.40bd88ec.js"
+    "static/css/main.fff7559d.css",
+    "static/js/main.c60b6aa9.js"
   ]
 }
