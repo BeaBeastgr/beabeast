@@ -16,8 +16,8 @@ import Glutes from '../../Assets/Images/Glutes.png';
 import Hamstrings from '../../Assets/Images/Hamstrings.png';
 import Calves from '../../Assets/Images/Calves.png';
 import Forearms from '../../Assets/Images/forearm.png';
-import abs1 from '../../Assets/ImageAskhsewn/abs1.png';
 import arrow from '../../Assets/Images/downarrow.png';
+import exerciseTable from '../DB/ExercDB.js';
 
 const muscleImages = {
   Triceps: Triceps,
@@ -42,45 +42,69 @@ const Exercise = () => {
   const navigate = useNavigate();
   const { muscle } = queryString.parse(location.search);
   const [imageSrc, setImageSrc] = useState(null);
-
+  const [exercises, setExercises] = useState([]);
+  const [showDetails, setShowDetails] = useState([]);
+  
   useEffect(() => {
     if (!muscle) {
       navigate('/exercises');
-    } else if (muscleImages[muscle]) {
-      setImageSrc(muscleImages[muscle]);
+    } else {
+      if (muscleImages[muscle]) {
+        setImageSrc(muscleImages[muscle]);
+      }
+      const muscleExercises = exerciseTable.find(group => group.muscleGroup === muscle);
+      if (muscleExercises) {
+        setExercises(muscleExercises.exercises);
+      }
     }
   }, [muscle, navigate]);
+
+  const toggleDetails = (index) => {
+    setShowDetails(prevShowDetails => {
+      const newShowDetails = [...prevShowDetails];
+      newShowDetails[index] = !newShowDetails[index];
+      return newShowDetails;
+    });
+  };
 
   return (
     <div className='Ebook'>
       <br/><br/>
-      <div className='tonamekaitoimg'>
+      <div className='hAskhsh'>
+        <div className='tonamekaitoimg'>
           {imageSrc ? (
             <img src={imageSrc} alt={muscle} className='tomuscleImg' />
           ) : (
             <p>Image not found</p>
           )}
-            <span>{muscle}</span>
-      </div>
-      <br/><br/>
-      <div className='haskhshsmesa'>
-        <div className='askhsh'>
-            <img src={abs1} alt='' className='askhsheimage'/>
-            <span>Onoma askhshs</span>
-            <img src={arrow} alt='' className='arrow' />
+          <span>{muscle}</span>
         </div>
-        <div className='toapokatw'>
-          <br/>
-          <div className='kentrohEikona'>
-            <img src={abs1} alt='' className='eikonaaskMegalh' />
-          </div>
-          <span>Epeksigisi:</span><br/><br/>
-          <span>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro eos dolore ipsa unde ullam reiciendis similique corrupti repellat? Perspiciatis necessitatibus adipisci sunt amet, labore vero sapiente delectus. Facilis, optio velit!
-          </span>
-          <br/><br/>
+        <br /><br />
+
+        <div className='haskhshsmesa'>
+          {exercises.map((exercise, index) => (
+            <div key={index} className='askhsh-container'>
+              <div className='askhsh' onClick={() => toggleDetails(index)}>
+                <img src={exercise.ImageLink} alt={exercise.Onoma} className='askhsheimage' />
+                <span>{exercise.Onoma}</span>
+                <img src={arrow} alt='arrow' className='arrow' />
+              </div>
+              {showDetails[index] && (
+                <div className='toapokatw'>
+                  <br />
+                  <div className='kentrohEikona'>
+                    <img src={exercise.ImageLink} alt={exercise.Onoma} className='eikonaaskMegalh' />
+                  </div>
+                  <span>Επεξήγηση:</span><br /><br />
+                  <span dangerouslySetInnerHTML={{ __html: exercise.Epeksigisi }}></span>
+                  <br /><br />
+                </div>
+              )}
+            </div>
+          ))}
+          <br /><br /><br /><br />
         </div>
-      </div>
+        </div>
     </div>
   );
 };

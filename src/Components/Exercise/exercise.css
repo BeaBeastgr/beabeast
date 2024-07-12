@@ -24,12 +24,18 @@
 }
 
 .haskhshsmesa {
+    display: block;
     margin-left:25%;
     width: 50%;
+    margin-bottom: 30px;
+}
+
+.askhsh-container {
+    margin-bottom: 30px;
 }
 
 .askhsheimage {
-    width: 15%;
+    width: auto;
     height: 50px;
 }
 
@@ -79,7 +85,8 @@
 }
 
 .eikonaaskMegalh {
-    width: 40%;
+    width: auto;
+    margin-top: 20px;
 }
 
 /* Κανόνες CSS για tablet */
