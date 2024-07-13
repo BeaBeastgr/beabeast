@@ -38,14 +38,16 @@ const StartNow = () => {
 
               <br/><br/>
 
-              <Link to='/ebook' className='tolink'>
-                <div className='apanthsh' id='apant1'>
-                  <p>Ξεκινάω από το 0!</p>
-                </div>
-              </Link>
+              <div className='ligomesa'>
+                <Link to='/ebook' className='tolink'>
+                  <div className='apanthsh' id='apant1'>
+                    <p>Ξεκινάω από το 0!</p>
+                  </div>
+                </Link>
 
-              <div className='apanthsh' id='apant2' onClick={handleAnswerClick}>
-                <p>Έχω ξανακάνει γυμναστική, είμαι σε ένα σχετικά καλό επίπεδο και θέλω να βελτιωθώ παραπάνω!</p>
+                <div className='apanthsh' id='apant2' onClick={handleAnswerClick}>
+                  <p>Έχω ξανακάνει γυμναστική, είμαι σε ένα σχετικά καλό επίπεδο και θέλω να βελτιωθώ παραπάνω!</p>
+                </div>
               </div>
             </div>
           )}

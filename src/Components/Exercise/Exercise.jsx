@@ -34,7 +34,6 @@ const muscleImages = {
   Hamstrings: Hamstrings,
   Calves: Calves,
   Forearms: Forearms,
-  // Πρόσθεσε όλες τις μυϊκές ομάδες με τις αντίστοιχες εικόνες τους εδώ
 };
 
 const Exercise = () => {

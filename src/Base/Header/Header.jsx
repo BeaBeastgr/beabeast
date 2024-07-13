@@ -14,7 +14,7 @@ const Header = () => {
 
           {location.pathname !== '/StartNow' && (
             <div className='todeksia'>
-              <Link to='/StartNow' className='startbutton'>Ξεκίνα σήμερα!</Link>
+              <Link to='/StartNow' className='startbutton'>Ξεκίνα!</Link>
             </div>
           )}
         </div>

@@ -32,7 +32,6 @@ const Exercises = () => {
           <div className='kentromesamaga'>
             <p>Επέλεξε την μυϊκή ομάδα που επιθυμείς:</p>
           </div>
-          <br/>
           <main>
             <div className="muscle-groups">
               <svg

@@ -43,7 +43,12 @@
 /* Κανόνες CSS για κινητά */
 @media (max-width: 600px) {
     .kentro {
-        width: 95%;
-        margin-left: 2.5%;
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    .topligomesa {
+        width: 90%;
+        margin-left: 5%;
     }
 }
