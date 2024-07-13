@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/beabeast/static/css/main.fff7559d.css",
-    "main.js": "/beabeast/static/js/main.c60b6aa9.js",
+    "main.css": "/beabeast/static/css/main.bd0c5a5f.css",
+    "main.js": "/beabeast/static/js/main.d10ac39c.js",
     "static/media/profil.png": "/beabeast/static/media/profil.8ab94012079e4c597372.png",
     "static/media/book.png": "/beabeast/static/media/book.48583a3b0b13399b74a7.png",
     "static/media/trik3.png": "/beabeast/static/media/trik3.f5bd0d370aec58c4edad.png",
@@ -45,11 +45,11 @@
     "static/media/ebook.png": "/beabeast/static/media/ebook.d73aff974eac26b4153a.png",
     "static/media/play-button.png": "/beabeast/static/media/play-button.00f36ef17e5a24c37d3c.png",
     "index.html": "/beabeast/index.html",
-    "main.fff7559d.css.map": "/beabeast/static/css/main.fff7559d.css.map",
-    "main.c60b6aa9.js.map": "/beabeast/static/js/main.c60b6aa9.js.map"
+    "main.bd0c5a5f.css.map": "/beabeast/static/css/main.bd0c5a5f.css.map",
+    "main.d10ac39c.js.map": "/beabeast/static/js/main.d10ac39c.js.map"
   },
   "entrypoints": [
-    "static/css/main.fff7559d.css",
-    "static/js/main.c60b6aa9.js"
+    "static/css/main.bd0c5a5f.css",
+    "static/js/main.d10ac39c.js"
   ]
 }
