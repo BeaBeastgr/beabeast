@@ -25,28 +25,25 @@ import pixis3 from '../../Assets/ImageAskhsewn/pixis3.png';
 import glt1 from '../../Assets/ImageAskhsewn/glt1.png';
 import glt2 from '../../Assets/ImageAskhsewn/glt2.png';
 import glt3 from '../../Assets/ImageAskhsewn/glt3.png';
+import gamp1 from '../../Assets/ImageAskhsewn/gamp1.png';
+import gamp2 from '../../Assets/ImageAskhsewn/gamp2.png';
 
 const exerciseTable = [
-    // {
-    //     muscleGroup: '',
-    //     exercises: [
-    //         {
-    //             Onoma: '',
-    //             ImageLink: '',
-    //             Epeksigisi: ''
-    //         },
-    //         {
-    //             Onoma: '',
-    //             ImageLink: '',
-    //             Epeksigisi: ''
-    //         },
-    //         {
-    //             Onoma: '',
-    //             ImageLink: '',
-    //             Epeksigisi: ''
-    //         }
-    //     ]
-    // },
+    {
+        muscleGroup: 'Calves',
+        exercises: [
+            {
+                Onoma: 'Άρσεις γαστροκνημίων στο smith',
+                ImageLink: gamp1,
+                Epeksigisi: '1) Τοποθέτησε ένα step ακριβώς στο κέντρο του smith και λίγο πιο μπροστά από την ευθεία της μπάρας<br/><br/>2) Ανέβα στο step με τα πόδια σε μια σχετικά στενή στάση στερεώνοντας την μπάρα καλά πίσω στους ώμους σου<br/><br/>3) Ανασήκωσε την μπάρα και απελευθέρωσέ την από smith χαμηλώνοντας όσο μπορείς πιο κάτω τις φτέρνες μέχρι να νιώσεις ένα τράβηγμα στον γαστροκνήμιο. Αυτή είναι η αρχική θέση<br/><br/>4) Ανασήκωσε αργά και σταθερά, όσο ψηλά μπορείς τις φτέρνες και σφίξε τους μύες της γάμπας<br/><br/>5) Παύση για 2 δευτ. και επέστρεψε στην αρχική θέση<br/><br/>6) Επανάλαβε'
+            },
+            {
+                Onoma: 'Όρθιες άρσεις γαστροκνημίων στο όργανο',
+                ImageLink: gamp2,
+                Epeksigisi: '1) Στάσου όρθιος κάτω από τα μαξιλάρια του οργάνου έχοντας σιγουρέψει ότι πιέζουν επαρκώς τους ώμους<br/><br/>2) Κράτησε από τις λαβές και έχε τα πόδια κλειστά, ενώ τα πέλματα πατάνε σταθερά στην πλατφόρμα του οργάνου ή να κάμπτονται ελαφρώς προς τα κάτω. Αυτή είναι η αρχική θέση.<br/><br/>3) Ανασήκωσε όσο ψηλά μπορείς τις φτέρνες και σφίξε τους μύες της κνήμης<br/><br/>4) Παύση για 2 δευτ. και επέστρεψε στην αρχική θέση.<br/><br/>5) Επαναλάβε'
+            }
+        ]
+    },
     {
         muscleGroup: 'Glutes',
         exercises: [
