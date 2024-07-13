@@ -10,7 +10,7 @@ import Quads from '../../Assets/Images/quadricep.png';
 import Abs from '../../Assets/Images/abs.png';
 import Adductors from '../../Assets/Images/adductors.png';
 import Obliques from '../../Assets/Images/oblique.png';
-import Trapezius from '../../Assets/Images/trapezius.png';
+import Trapezius from '../../Assets/Images/back.png';
 import Lats from '../../Assets/Images/lats.png';
 import Glutes from '../../Assets/Images/Glutes.png';
 import Hamstrings from '../../Assets/Images/Hamstrings.png';
@@ -28,7 +28,7 @@ const muscleImages = {
   Abs: Abs,
   Adductors: Adductors,
   Obliques: Obliques,
-  Trapezius: Trapezius,
+  Back: Trapezius,
   Lats: Lats,
   Glutes: Glutes,
   Hamstrings: Hamstrings,
