@@ -1,10 +1,12 @@
 {
   "files": {
     "main.css": "/beabeast/static/css/main.bd0c5a5f.css",
-    "main.js": "/beabeast/static/js/main.cd6952e8.js",
+    "main.js": "/beabeast/static/js/main.08eaad27.js",
     "static/media/profil.png": "/beabeast/static/media/profil.8ab94012079e4c597372.png",
     "static/media/book.png": "/beabeast/static/media/book.48583a3b0b13399b74a7.png",
+    "static/media/gamp2.png": "/beabeast/static/media/gamp2.da843f6353a05bb369b9.png",
     "static/media/plat2.png": "/beabeast/static/media/plat2.0fd142563745fa3d61ed.png",
+    "static/media/gamp1.png": "/beabeast/static/media/gamp1.242559a7071f97a43ac3.png",
     "static/media/glt3.png": "/beabeast/static/media/glt3.f1258c6c105f4297f6c5.png",
     "static/media/plat3.png": "/beabeast/static/media/plat3.ccaa605f341d10a9b531.png",
     "static/media/pixis3.png": "/beabeast/static/media/pixis3.fa58f9d628667aee710c.png",
@@ -55,10 +57,10 @@
     "static/media/play-button.png": "/beabeast/static/media/play-button.00f36ef17e5a24c37d3c.png",
     "index.html": "/beabeast/index.html",
     "main.bd0c5a5f.css.map": "/beabeast/static/css/main.bd0c5a5f.css.map",
-    "main.cd6952e8.js.map": "/beabeast/static/js/main.cd6952e8.js.map"
+    "main.08eaad27.js.map": "/beabeast/static/js/main.08eaad27.js.map"
   },
   "entrypoints": [
     "static/css/main.bd0c5a5f.css",
-    "static/js/main.cd6952e8.js"
+    "static/js/main.08eaad27.js"
   ]
 }
