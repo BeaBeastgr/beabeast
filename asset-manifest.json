@@ -1,20 +1,29 @@
 {
   "files": {
     "main.css": "/beabeast/static/css/main.bd0c5a5f.css",
-    "main.js": "/beabeast/static/js/main.d10ac39c.js",
+    "main.js": "/beabeast/static/js/main.cd6952e8.js",
     "static/media/profil.png": "/beabeast/static/media/profil.8ab94012079e4c597372.png",
     "static/media/book.png": "/beabeast/static/media/book.48583a3b0b13399b74a7.png",
+    "static/media/plat2.png": "/beabeast/static/media/plat2.0fd142563745fa3d61ed.png",
+    "static/media/glt3.png": "/beabeast/static/media/glt3.f1258c6c105f4297f6c5.png",
+    "static/media/plat3.png": "/beabeast/static/media/plat3.ccaa605f341d10a9b531.png",
+    "static/media/pixis3.png": "/beabeast/static/media/pixis3.fa58f9d628667aee710c.png",
     "static/media/trik3.png": "/beabeast/static/media/trik3.f5bd0d370aec58c4edad.png",
     "static/media/xeria2.png": "/beabeast/static/media/xeria2.b8dac28c9c8575b26d99.png",
+    "static/media/glt2.png": "/beabeast/static/media/glt2.04e2c3f944e664067c37.png",
     "static/media/xeria3.png": "/beabeast/static/media/xeria3.d5c1e08575c176e3cdc2.png",
+    "static/media/pixis1.png": "/beabeast/static/media/pixis1.9666e3d9b2ca1595b65d.png",
     "static/media/trik2.png": "/beabeast/static/media/trik2.eee18b77ab09b6a8ee57.png",
     "static/media/om1.png": "/beabeast/static/media/om1.1a1c2e476efdba324d92.png",
     "static/media/stith3.png": "/beabeast/static/media/stith3.326db3d23df6af711386.png",
     "static/media/xeria1.png": "/beabeast/static/media/xeria1.f8072ade27e4bcb4892b.png",
     "static/media/tetr3.png": "/beabeast/static/media/tetr3.41c55e4ad3a20f0c713d.png",
     "static/media/tetr2.png": "/beabeast/static/media/tetr2.8a1c21422371faf3b288.png",
+    "static/media/pixis2.png": "/beabeast/static/media/pixis2.27b7cf72a6947bd6ac06.png",
     "static/media/trik1.png": "/beabeast/static/media/trik1.91f3e3b4c0cef3beffe1.png",
     "static/media/exers.png": "/beabeast/static/media/exers.ba973ca7a31f3e448ed2.png",
+    "static/media/plat1.png": "/beabeast/static/media/plat1.f0ba21c2d3c8969f653a.png",
+    "static/media/glt1.png": "/beabeast/static/media/glt1.a16f6a95007df08d3bdd.png",
     "static/media/stith2.png": "/beabeast/static/media/stith2.7293772b58abdb0b7b54.png",
     "static/media/om3.png": "/beabeast/static/media/om3.39bb0caf654f70e0beaa.png",
     "static/media/tetr1.png": "/beabeast/static/media/tetr1.c0871c070c15c71f68ae.png",
@@ -23,12 +32,12 @@
     "static/media/stith1.png": "/beabeast/static/media/stith1.935254403d49511f8397.png",
     "static/media/abs3.png": "/beabeast/static/media/abs3.222a0528bbff0fe5bfa6.png",
     "static/media/abs2.png": "/beabeast/static/media/abs2.3c6940ac8ca88279cf3a.png",
-    "static/media/trapezius.png": "/beabeast/static/media/trapezius.fb1698e97b7d952e12d5.png",
     "static/media/oblique.png": "/beabeast/static/media/oblique.bd7335db266c0681c67f.png",
     "static/media/lats.png": "/beabeast/static/media/lats.5c340c76fd06d3332203.png",
     "static/media/quadricep.png": "/beabeast/static/media/quadricep.fc4ecd98602240b63a3e.png",
     "static/media/house.png": "/beabeast/static/media/house.218fbaccbced26ae1099.png",
     "static/media/biceps.png": "/beabeast/static/media/biceps.9dc40fee599bb178d94e.png",
+    "static/media/back.png": "/beabeast/static/media/back.2788c3cfbf20532ad33e.png",
     "static/media/adductors.png": "/beabeast/static/media/adductors.44a3b227c6ea6b727f80.png",
     "static/media/Glutes.png": "/beabeast/static/media/Glutes.1da3dd5bd4194faebca5.png",
     "static/media/Calves.png": "/beabeast/static/media/Calves.1ad241fa76109e8955cc.png",
@@ -46,10 +55,10 @@
     "static/media/play-button.png": "/beabeast/static/media/play-button.00f36ef17e5a24c37d3c.png",
     "index.html": "/beabeast/index.html",
     "main.bd0c5a5f.css.map": "/beabeast/static/css/main.bd0c5a5f.css.map",
-    "main.d10ac39c.js.map": "/beabeast/static/js/main.d10ac39c.js.map"
+    "main.cd6952e8.js.map": "/beabeast/static/js/main.cd6952e8.js.map"
   },
   "entrypoints": [
     "static/css/main.bd0c5a5f.css",
-    "static/js/main.d10ac39c.js"
+    "static/js/main.cd6952e8.js"
   ]
 }
