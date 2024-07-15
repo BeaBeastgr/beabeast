@@ -23,18 +23,26 @@
 
 .topdeksia {
     width: 50%;
+    height: auto;
     text-align: center;
     margin-right: 5%;
-}
-
-.profilImg {
-    width: 100%;
     border: 5px solid rgb(142, 189, 193);
+    border-right: 5px solid rgb(255, 123, 0);
     border-top: none;
     border-left: none;
-    border-bottom: 5px solid rgb(255, 123, 0);
-    border-radius: 0 0 20px 20px;
+    border-radius: 10px;
 }
+
+.profilImg1 {
+    width: 100%;
+    border-radius: 10px 10px 0 5px;
+}
+
+.eik2 {
+    width: 110%;
+}
+
+
 
 .tobutt {
     font-family: monospace;
@@ -215,11 +223,19 @@
     }
 
     .topdeksia {
-        width: 100%;
+        width: 60%;
+        margin-top: 30px;
         text-align: center;
-        margin-right: 5%;
-        margin-top: 10%;
+        margin-right: 0%;
+        margin-left: 20%;
+        margin-bottom: 20px;
+        border: 5px solid rgb(142, 189, 193);
+        border-right: 5px solid rgb(255, 123, 0);
+        border-top: none;
+        border-left: none;
+        border-radius: 10px;
     }
+    
     
     .profilImg {
         width: 60%;

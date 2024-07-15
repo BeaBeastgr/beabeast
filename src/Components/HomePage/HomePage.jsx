@@ -1,11 +1,16 @@
 import React from 'react';
-import profilePicture from '../../Assets/Images/profil.png';
 import './homepage.css';
 import baraki from '../../Assets/Images/dumbbell.png';
 import exers from '../../Assets/Images/exers.png';
 import ebook from '../../Assets/Images/book.png';
-import treadmill from '../../Assets/Images/barakikardia.png';
+import treadmill from '../../Assets/Images/workout.png';
 import { Link } from 'react-router-dom';
+import { Carousel } from 'react-responsive-carousel';
+import "react-responsive-carousel/lib/styles/carousel.min.css"; 
+import profil from '../../Assets/Images/profil.jpeg';
+import profil2 from '../../Assets/Images/profil2.jpeg';
+import profil5 from '../../Assets/Images/profil5.jpeg';
+import profil6 from '../../Assets/Images/profil6.jpg';
 
 const HomePage = () => {
   return (
@@ -24,9 +29,20 @@ const HomePage = () => {
           <hr className='tohr'/>
         </div>
 
-        <div className='topdeksia'>
-          <img src={profilePicture} alt='gymimage' className='profilImg'/>
-        </div>
+        <Carousel className='topdeksia' showThumbs={false} autoPlay interval={5000}>
+                <div className='eik1'>
+                  <img src={profil} alt='gymimage' className='profilImg1'/>
+                </div>
+                <div className='eik1'>
+                  <img src={profil2} alt='gymimage' className='profilImg1'/>
+                </div>
+                <div className='eik1'>
+                  <img src={profil5} alt='gymimage' className='profilImg1'/>
+                </div>
+                <div className='eik1'>
+                  <img src={profil6} alt='gymimage' className='profilImg1'/>
+                </div>
+            </Carousel>
       </div>
 
       <div className='baraki'>
