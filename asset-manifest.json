@@ -1,9 +1,12 @@
 {
   "files": {
-    "main.css": "/beabeast/static/css/main.bd0c5a5f.css",
-    "main.js": "/beabeast/static/js/main.08eaad27.js",
-    "static/media/profil.png": "/beabeast/static/media/profil.8ab94012079e4c597372.png",
+    "main.css": "/beabeast/static/css/main.5c78a053.css",
+    "main.js": "/beabeast/static/js/main.24a18a9b.js",
+    "static/media/profil6.jpg": "/beabeast/static/media/profil6.79e945864ba208aa2cfe.jpg",
+    "static/media/profil5.jpeg": "/beabeast/static/media/profil5.58ef450fd7f8b5fda9df.jpeg",
+    "static/media/profil2.jpeg": "/beabeast/static/media/profil2.24fe82c8915fba09935d.jpeg",
     "static/media/book.png": "/beabeast/static/media/book.48583a3b0b13399b74a7.png",
+    "static/media/profil.jpeg": "/beabeast/static/media/profil.c6153680fe6c24029911.jpeg",
     "static/media/gamp2.png": "/beabeast/static/media/gamp2.da843f6353a05bb369b9.png",
     "static/media/plat2.png": "/beabeast/static/media/plat2.0fd142563745fa3d61ed.png",
     "static/media/gamp1.png": "/beabeast/static/media/gamp1.242559a7071f97a43ac3.png",
@@ -51,16 +54,16 @@
     "static/media/training.png": "/beabeast/static/media/training.7a436ffac7a6b64da5bf.png",
     "static/media/dumbbell.png": "/beabeast/static/media/dumbbell.3d35db2856d61cc63289.png",
     "static/media/deltoid.png": "/beabeast/static/media/deltoid.fe6edc6a20ac5b06d197.png",
+    "static/media/workout.png": "/beabeast/static/media/workout.ba1ceb5331f20f63f571.png",
     "static/media/abs.png": "/beabeast/static/media/abs.af092f3d7bf536c1fe47.png",
-    "static/media/barakikardia.png": "/beabeast/static/media/barakikardia.6cf9472aa18230b30e5b.png",
     "static/media/ebook.png": "/beabeast/static/media/ebook.d73aff974eac26b4153a.png",
     "static/media/play-button.png": "/beabeast/static/media/play-button.00f36ef17e5a24c37d3c.png",
     "index.html": "/beabeast/index.html",
-    "main.bd0c5a5f.css.map": "/beabeast/static/css/main.bd0c5a5f.css.map",
-    "main.08eaad27.js.map": "/beabeast/static/js/main.08eaad27.js.map"
+    "main.5c78a053.css.map": "/beabeast/static/css/main.5c78a053.css.map",
+    "main.24a18a9b.js.map": "/beabeast/static/js/main.24a18a9b.js.map"
   },
   "entrypoints": [
-    "static/css/main.bd0c5a5f.css",
-    "static/js/main.08eaad27.js"
+    "static/css/main.5c78a053.css",
+    "static/js/main.24a18a9b.js"
   ]
 }
